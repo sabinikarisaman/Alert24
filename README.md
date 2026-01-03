@@ -1,70 +1,167 @@
-# Getting Started with Create React App
+# 🚢 Alert24 Smart Life Jacket – Booking Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive checkout and booking system for **Alert24's Smart Life Jacket** technology, built as a **Frontend Internship Assignment**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📋 Project Overview
+This project is a responsive checkout page that simulates booking **Alert24's Smart Life Jacket System** — a life‑saving maritime safety technology.  
+It demonstrates **modern frontend development practices** with strong emphasis on **UX, validation, animations, and dynamic pricing**.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Key Features
+- ✅ Complete **Alert24 Brand Integration**
+- 📱 **Responsive Design** (Mobile‑first)
+- 💰 **Dynamic Pricing Engine** (GST, discounts, safety fees)
+- 🧪 **Client‑side Form Validation**
+- 🚢 **Safety‑focused UX**
+- 🎞️ **Framer Motion Animations**
+- 🖐️ **Simulated Thumbprint Capture**
+- 📊 **Progress Stepper**
+- 🔔 **Toast Notifications**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠 Technology Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology | Purpose |
+|---------|--------|
+| React 18 | Frontend framework |
+| Framer Motion | Animations |
+| React Icons | Icons |
+| React Toastify | Notifications |
+| date-fns | Date handling |
+| CSS3 | Styling |
+| HTML5 | Semantic markup |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Project Structure
+```text
+alert24-checkout/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── App.js
+│   │   ├── TravellerForm.js
+│   │   ├── PriceSummary.js
+│   │   ├── DatePicker.js
+│   │   ├── ThumbprintCapture.js
+│   │   └── ProgressStepper.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+├── README.md
+└── .gitignore
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Quick Start
 
-### `npm run eject`
+### Prerequisites
+- Node.js (v14+)
+- npm / yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
+```bash
+git clone https://github.com/your-username/alert24-checkout.git
+cd alert24-checkout
+npm install
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open 👉 **http://localhost:3000**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💰 Pricing Logic
 
-## Learn More
+```text
+Base Fare        = Travelers × ₹1000
+Life Jacket     = Travelers × ₹100
+Safety Fee      = Travelers × ₹150
+Service Charge  = Travelers × ₹50
+GST             = Base Fare × 18%
+Final Amount    = Subtotal − Discount
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Coupon Codes
+| Code | Discount | Min Travelers |
+|-----|---------|---------------|
+| NEW10 | ₹100 | 2 |
+| NEW20 | ₹200 | 4 |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🔒 Security & Privacy
+- ❌ No real biometric data collected
+- 🌐 Client‑side only
+- 📘 Educational & demo purpose only
+- 🔐 GDPR‑compliant messaging
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📱 Responsive Breakpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Device | Width |
+|------|------|
+| Mobile | < 768px |
+| Tablet | 768–1024px |
+| Desktop | > 1024px |
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🚀 Deployment
 
-### Advanced Configuration
+### GitHub Pages
+```bash
+npm install --save-dev gh-pages
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Netlify
+```bash
+netlify deploy --prod
+```
 
-### Deployment
+### Vercel
+```bash
+vercel --prod
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🎯 Learning Outcomes
+- React Hooks & Component Architecture
+- Responsive UI/UX Design
+- Dynamic Forms & Validation
+- Pricing Calculations
+- Frontend‑only Security Simulation
+- Git & Project Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📄 License
+Created for **Alert24 Frontend Internship Assignment**  
+© Alert24 Safety Systems. All rights reserved.
+
+---
+
+## 👨‍💻 Author
+**Your Name**  
+- GitHub: @yourusername  
+- Portfolio: yourportfolio.com  
+- LinkedIn: your-linkedin  
+- Email: your@email.com
+
+---
+
+## 📞 Contact
+📧 support@alert24.co.in  
+📞 1800‑ALERT24  
+📍 Anokapalle, Andhra Pradesh, India
