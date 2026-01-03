@@ -154,10 +154,9 @@ Created for **Alert24 Frontend Internship Assignment**
 
 ## 👨‍💻 Author
 **Your Name**  
-- GitHub: @yourusername  
-- Portfolio: yourportfolio.com  
-- LinkedIn: your-linkedin  
-- Email: your@email.com
+- GitHub: https://github.com/sabinikarisaman   
+- LinkedIn: https://www.linkedin.com/in/sabinikari-saman-706984257/
+- Email: sabinikarisaman@gmail.com
 
 ---
 
